@@ -10,6 +10,8 @@
    --VeryDarkBlue: hsl(216, 12%, 8%);
 }
 
+/* Ratings Page */
+
 body {
    display: flex;
    min-height: 100vh;
@@ -104,6 +106,25 @@ input[type="radio"] {
    cursor: pointer;
 }
 
+input[type="radio"]:hover {
+   background-color: hsl(217, 12%, 63%);
+}
+
+input[type="radio"]:checked {
+   background-color: hsl(25, 97%, 53%);
+}
+
+label {
+   position: relative;
+   right: 10%;
+   cursor: pointer;
+   z-index: 9;
+}
+
+label:hover {
+   color: hsl(0, 0%, 100%)
+}
+
 .container button {
    background-color: var(--Orange);
    border: none;
@@ -125,6 +146,27 @@ input[type="radio"] {
 footer {
    color: var(--White);
 }
+
+/* Thank you Page */
+
+.thank-you-container {
+   background-color: var(--DarkBlue);
+   width: 28em;
+   height: 28em;
+   border-radius: 2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 2em;
+}
+
+
+.thank-you-img {
+   
+}
+
+
+/* Media Queries */
 
 @media (max-width: 375px) {
 
