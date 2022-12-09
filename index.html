@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -22,14 +25,24 @@
     <img class="star"src="./images/icon-star.svg" alt="">
   </div>
 
-  <h1>How did we do?</h1>
+  <div class="container-text">
+    <h1>How did we do?</h1>
 
-  <p>Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!</p>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+  </div>
 
-  <span class="rating-nums">1 2 3 4 5</span>
 
-  <button>Submit</button>
+  <div class="ratings">
+    <span aria-required="true" class="rating-nums">1</span> 
+    <span aria-required="true" class="rating-nums">2</span>
+    <span aria-required="true" class="rating-nums">3</span>
+    <span aria-required="true" class="rating-nums">4</span>
+    <span aria-required="true" class="rating-nums">5</span>
+  </div>
+
+
+  <button type="submit">Submit</button>
 </section>
 
 
@@ -51,7 +64,7 @@
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/imRanDan" target="_blank">imRanDan</a>.
     </div>
   </footer>
 
