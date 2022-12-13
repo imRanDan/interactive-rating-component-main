@@ -126,6 +126,8 @@ label:hover {
 }
 
 .container button {
+   position: relative;
+   width: 27em;
    background-color: var(--Orange);
    border: none;
    padding: 1.4em;
@@ -162,8 +164,10 @@ footer {
 
 
 .thank-you-img {
-   
+   width: 50%;
 }
+
+
 
 
 /* Media Queries */
