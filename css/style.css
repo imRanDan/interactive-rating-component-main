@@ -164,8 +164,43 @@ footer {
 
 
 .thank-you-img {
-   width: 50%;
+   width: 55%;
+   justify-content: center;
+   position: relative;
+   left: 5em;
 }
+
+.thank-you-container span {
+   text-align: center;
+   position: relative;
+   left: 2em;
+   border: 1px solid hsl(213, 19%, 22%);
+   border-radius: 2em;
+   padding: 1em;
+   margin-top: 2em;
+   width: 20em;
+   background-color: hsl(213, 19%, 22%);
+   color: hsl(25, 97%, 53%);
+   font-family: 'Overpass', sans-serif;
+   font-weight: 400;
+}
+
+.thank-you-container h1, p {
+   text-align: center;
+   color: hsl(0, 0%, 100%);
+   font-family: 'Overpass', sans-serif;
+}
+
+.thank-you-container h1 {
+   position: relative;
+   top: 1em;
+}
+
+.thank-you-container p {
+   line-height: 1.5em;
+   color: hsl(217, 12%, 63%);
+}
+
 
 
 
