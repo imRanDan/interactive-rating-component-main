@@ -66,29 +66,6 @@ body {
    align-items: center;
 }
 
-/* .ratings span {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: hsl(213, 19%, 22%);
-   border-radius: 1.6em;
-   color: var(--LightGrey);
-   height: 1em;
-   width: 1em;
-   padding: 1.6em;
-   flex-direction: row;
-   margin: 0.875em;
-   cursor: pointer;
-}
-
-.ratings span:hover {
-   background-color: hsl(217, 12%, 63%);
-   color: hsl(0, 0%, 100%)
-}
-
-.ratings span:active {
-   background-color: hsl(25, 97%, 53%);
-} */
 
 .btn {
    display: flex;
@@ -118,7 +95,7 @@ body {
 
 #submit {
    position: relative;
-   width: 27em;
+   width: 28em;
    background-color: var(--Orange);
    border: none;
    padding: 1.4em;
@@ -155,21 +132,21 @@ footer {
 
 
 .thank-you-img {
-   width: 55%;
+   width: 50%;
    justify-content: center;
    position: relative;
    left: 5em;
 }
 
-.thank-you-container span {
+.rating-container {
    text-align: center;
    position: relative;
-   left: 2em;
+   left: 3em;
    border: 1px solid hsl(213, 19%, 22%);
    border-radius: 2em;
    padding: 1em;
    margin-top: 2em;
-   width: 20em;
+   width: 18em;
    background-color: hsl(213, 19%, 22%);
    color: hsl(25, 97%, 53%);
    font-family: 'Overpass', sans-serif;
