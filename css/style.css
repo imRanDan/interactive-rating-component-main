@@ -90,42 +90,33 @@ body {
    background-color: hsl(25, 97%, 53%);
 } */
 
-input[type="radio"] {
-   appearance: none;
+.btn {
    display: flex;
    justify-content: center;
    align-items: center;
    background-color: hsl(213, 19%, 22%);
-   border-radius: 1.6em;
-   color: var(--LightGrey);
-   height: 1em;
-   width: 1em;
-   padding: 1.6em;
+   border-radius: 2em;
+   border: none;
+   color: hsl(0, 0%, 100%);
+   padding: 1.2em;
+   width: 3em;
+   height: 3em;
    flex-direction: row;
    margin: 0.875em;
    cursor: pointer;
 }
 
-input[type="radio"]:hover {
-   background-color: hsl(217, 12%, 63%);
-}
-
-input[type="radio"]:checked {
+.btn:hover {
    background-color: hsl(25, 97%, 53%);
 }
 
-label {
-   position: relative;
-   right: 10%;
-   cursor: pointer;
-   z-index: 9;
+.btn:focus{
+   background-color: hsl(216, 12%, 54%);
 }
 
-label:hover {
-   color: hsl(0, 0%, 100%)
-}
 
-.container button {
+
+#submit {
    position: relative;
    width: 27em;
    background-color: var(--Orange);
@@ -199,6 +190,12 @@ footer {
 .thank-you-container p {
    line-height: 1.5em;
    color: hsl(217, 12%, 63%);
+}
+
+/* Hidden */
+
+.hidden {
+   display: none;
 }
 
 

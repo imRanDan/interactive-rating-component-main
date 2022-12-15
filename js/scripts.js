@@ -1,6 +1,17 @@
-const display = document.getElementsByClassName('rating-display')
+const submitBtn = document.getElementById("submit");
+const mainContainer = document.querySelector(".container")
+const thankYouContainer = document.querySelector(".thank-you-container")
+const rating = document.getElementById("rating")
+const rates = document.querySelectorAll(".btn")
 
-document.getElementsByClassName('ratings').addEventListener('click', ({target}) => {
-   console.log(target.innertext)
-   display.innerHTML = target.innerText;
+
+submitBtn.addEventListener("click", () => {
+   thankYouContainer.classList.remove("hidden")
+   mainContainer.style.display = "none"
+})
+
+rates.forEach((rate) => {
+   rate.addEventListener("click", () => {
+      console.log("rate.innerHTML")
+   }) 
 })

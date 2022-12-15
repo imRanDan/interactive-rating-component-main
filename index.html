@@ -30,22 +30,31 @@
 
 
 
-  <form method="POST "action="./thankyou.html">
     <div class="ratings">
-      <input class="one" type="radio" id="1" name="rating" required>
-      <label for="1">1</label>
-      <input class="two" type="radio" name="rating" required>
-      <label for="2">2</label>
-      <input class="three" type="radio" name="rating" required>
-      <label for="3">3</label>
-      <input class="four" type="radio" name="rating" required>
-      <label for="4">4</label>
-      <input class="five" type="radio" name="rating" required>
-      <label for="5">5</label>
+      <button class="one btn" required>1</button>
+      <button class="two btn" required>2</button>
+      <button class="three btn" required>3</button>
+      <button class="four btn" required>4</button>
+      <button class="five btn" required>5</button>
     </div>
-    <button type="submit">Submit</button>
-  </form>
+    <button id="submit" type="submit">Submit</button>
 
+</section>
+
+
+<section class="thank-you-container hidden">
+  <!-- Rating state end -->
+  <img class="thank-you-img" src="./images/illustration-thank-you.svg" alt="img of payment thingie">
+  <!-- Thank you state start -->
+
+  <span>You selected <span id="rating"></span> out of 5</span>
+
+  <h1>Thank you!</h1>
+
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+
+  <!-- Thank you state end -->
 </section>
 
 
